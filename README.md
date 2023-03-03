@@ -1,13 +1,8 @@
 # Analog Clock using React
 
-[![CircleCI](https://circleci.com/gh/vishnuramana/analogclock/tree/dev.svg?style=shield)](https://circleci.com/gh/vishnuramana/analogclock/tree/dev) [![Coverage Status](https://coveralls.io/repos/github/vishnuramana/analogclock/badge.svg?branch=dev&kill_cache=1)](https://coveralls.io/github/vishnuramana/analogclock?branch=dev) [![npm](https://img.shields.io/npm/dw/analog-clock-react)](https://www.npmjs.com/package/analog-clock-react) ![npm](https://img.shields.io/npm/v/analog-clock-react) [![NPM](https://img.shields.io/npm/l/analog-clock-react)](https://github.com/vishnuramana/analogclock/blob/dev/LICENSE)
-
 This is a customizable analog clock completely built using React. It is customizable by passing an options JSON Object to the component which allows you to modify the clock colors. It also allows you to use multiple timezones.
 
 ![Clock Preview](https://i.imgur.com/uDyNlVl.png)
-
-## Demo
-You can customize/view a live demo of the clock [here](http://vishnuramana.github.io/analogclock).
 
 ## Installation
 Install the package using
@@ -38,8 +33,6 @@ Then use the `AnalogClock` Component like this
     <AnalogClock {...options} />
 
 You can customize the clock using the different properties in the `options` JSON Object. 
-
-Please visit the [demo](http://vishnuramana.github.io/analogclock) page to get a live preview of the clock.
 
 ## Features
 
@@ -95,10 +88,6 @@ Please visit the [demo](http://vishnuramana.github.io/analogclock) page to get a
 ## Contribution
 
 If you wish to contribute to this project, please use the `dev` branch to add your changes and test. Make sure all the tests are passed and optimal code coverage is present. Once you are done with your changes, please raise a PR.
-
-## Issues/Feature Requests
-
-For any issues/feature-requests, you can create an issue in Github or email me at [me@vishnu.codes](mailto:me@vishnu.codes)
 
 ## License
 
